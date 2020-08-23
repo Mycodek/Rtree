@@ -11,7 +11,7 @@
 In order to use file system ( to store all node data on page not in program execution)
 ### make <a name="make"></a>
 
-Runs the Makefile from the toplevel folder in the directory.  
+Runs the Makefile from the toplevel folder in the directory.  Please note if you are not following run.sh then before run make you must do make clean in order to remove any created rtree executable in subsequent runs. and then run it manually.
 
 ### run.sh <a name="check"></a>
 
