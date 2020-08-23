@@ -20,3 +20,8 @@ This script executes the rtree file with the following format -
 Things to note here -  
 
 - `query.txt` represents the **absolute path** of the query file as well as the relative path.
+- Query file should only contains 'INSERT' and 'QUERY' commands (No bulkload).
+
+## What is in the rtree
+it reads d dimensioinal point from query file and insert it in the tree. Which is actually doesn't exist in program memory, it's actully stored in buffer. which directly communicate to disk on modification in pages.
+rtree.h contains all required functions to communicate to memory and to update in consistent with rtree conventions.
