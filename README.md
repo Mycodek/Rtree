@@ -1,7 +1,7 @@
 # DBMS Assignment on Rtree implementation
 
 ## Required Files for Submission <a name="copy"></a>
-  the following files (provided on repo [here](https://github.com/ankit-1517/dbms_rTree)):
+  the following files (taken from repo [here](https://github.com/ankit-1517/dbms_rTree)):
 - buffer_manager.cpp
 - constants.h  
 - file_manager.cpp
